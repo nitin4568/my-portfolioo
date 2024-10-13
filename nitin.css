@@ -668,4 +668,41 @@ h1 {
     margin-top: -10px;
     display: block;
 }
+/* Large desktops */
+@media (min-width: 1200px) {
+    .btn-next33 {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+/* Medium desktops and laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .btn-next33 {
+        font-size: 16px;
+        padding: 14px 28px;
+    }
+}
+
+/* Tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .btn-next33 {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    .btn-next33 {
+        font-size: 12px;
+        padding: 10px 20px;
+        width: 100%; /* Make the button full width for smaller screens */
+        box-sizing: border-box;
+    }
+
+    .btn-container {
+        text-align: center; /* Center the button on mobile */
+    }
+}
  
